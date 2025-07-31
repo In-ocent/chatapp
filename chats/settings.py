@@ -31,7 +31,8 @@ DEBUG = False
 ALLOWED_HOSTS = [
     "127.0.0.1",
     "localhost",
-    "chatapp-6unw.onrender.com"  # ✅ Add this line exactly
+    "chatapp-6unw.onrender.com",  # ✅ Add this line exactly
+    'chatapp-6unw.onrender.com',
 ]
 
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
